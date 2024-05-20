@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32NativeAot", "Win32NativeAot\Win32NativeAot.csproj", "{71105799-C2CC-4501-9352-6C7E12A5392C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Win32Api", "Win32Api\Win32Api.shproj", "{56B8A5D6-1960-45B4-B6C4-913435231759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71105799-C2CC-4501-9352-6C7E12A5392C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71105799-C2CC-4501-9352-6C7E12A5392C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71105799-C2CC-4501-9352-6C7E12A5392C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71105799-C2CC-4501-9352-6C7E12A5392C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B08752F1-231C-44F6-AE24-CA3FEB7D535E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Win32Api\Win32Api.projitems*{56b8a5d6-1960-45b4-b6c4-913435231759}*SharedItemsImports = 13
+		Win32Api\Win32Api.projitems*{71105799-c2cc-4501-9352-6c7e12a5392c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
